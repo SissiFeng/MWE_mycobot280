@@ -1,5 +1,4 @@
 
-```md
 # MWE_mycobot280
 
 ## Install the required libraries:
@@ -35,4 +34,4 @@ This example serves as a starting point. You can expand it by:
 - Adding more complex movement commands.
 - Implementing error handling.
 - Enhancing the user interface based on specific requirements.
-```
+
