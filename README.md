@@ -35,3 +35,17 @@ This example serves as a starting point. You can expand it by:
 - Implementing error handling.
 - Enhancing the user interface based on specific requirements.
 
+---
+title: Robot Arm Simulator
+emoji: 🦾
+colorFrom: blue
+colorTo: red
+sdk: streamlit
+sdk_version: 1.21.0
+app_file: robot_arm_simulator.py
+pinned: false
+---
+
+# Robot Arm Simulator
+
+This Streamlit app simulates a robot arm moving and manipulating bottles in a laboratory setting. Users can control the arm's movement, grab and release bottles, and run a predefined bottle transfer task.
