@@ -1,40 +1,3 @@
-
-# MWE_mycobot280
-
-## Install the required libraries:
-
-```bash
-pip install streamlit paho-mqtt pymycobot
-```
-
-## This script does the following:
-
-1. Initializes the MyCobot 280 robotic arm using the `pymycobot` library.
-2. Sets up an MQTT client to subscribe to commands and publish messages.
-3. Creates a Streamlit interface with buttons to control the robot and display its status.
-
-## To run the Streamlit app:
-
-Save the script as `mycobot_control.py` and run:
-
-```bash
-streamlit run mycobot_control.py
-```
-
-## This MWE provides basic functionality to:
-
-- Move the robot to its home position.
-- Control the gripper (grab and release).
-- Get current joint angles.
-- Send and receive MQTT messages.
-
-> **Note:** You may need to adjust the serial port (e.g., `/dev/ttyUSB0`) based on your system configuration. Also, this example uses a public MQTT broker for demonstration purposes. In a production environment, you should use a secure, private MQTT broker.
-
-This example serves as a starting point. You can expand it by:
-- Adding more complex movement commands.
-- Implementing error handling.
-- Enhancing the user interface based on specific requirements.
-
 ---
 title: Robot Arm Simulator
 emoji: 🦾
@@ -49,3 +12,19 @@ pinned: false
 # Robot Arm Simulator
 
 This Streamlit app simulates a robot arm moving and manipulating bottles in a laboratory setting. Users can control the arm's movement, grab and release bottles, and run a predefined bottle transfer task.
+
+## Features
+
+- 2D visualization of a robot arm in a laboratory environment
+- Interactive control of the robot arm's position
+- Simulation of bottle grabbing and releasing
+- Predefined bottle transfer task demonstration
+
+## How to use
+
+1. Use the sliders in the sidebar to set the target X and Y coordinates for the robot arm.
+2. Click the "Move Robot Arm" button to move the arm to the target position.
+3. Use the "Grab Bottle" and "Release Bottle" buttons to interact with bottles.
+4. Click "Execute Bottle Transfer Task" to see a demonstration of the arm moving bottles between stations.
+
+Note: This is a simulation for demonstration purposes only and does not represent a real robotic system.
